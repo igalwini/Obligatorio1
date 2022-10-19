@@ -1,0 +1,165 @@
+<!--Igal Winicki-251512 y Nicolas Starovieschik-270315-->
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>Obligatorio 1 </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/Estilos.css">
+		<script src = "js/clases.js"></script>
+		<script src = "js/funciones.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Celulares SA</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#idSeccion2">Comparar</a></li>
+				<li><a href="#idSeccion3">Resumen</a></li>
+				<li><a href="#pieDePagina">Pie de pagina</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section id="idSeccion1">
+				<h2>Ingreso de datos</h2>
+				<article>
+					<h2>Marcas</h2>
+					<form id="idFormulario1">
+						<label for="idMarca">Marca</label>
+						<input type="text" id="idMarca" name="marca" maxlength="25" required>
+						<br>
+						<label for="idComentarios">Comentarios</label>
+						<input type="text" id="idComentarios" name="comentario" maxlength="25" required>
+						<br>
+						<br>
+						<input type="button" id="idBotonRegistrarMarca" value="Registrar Marca" class="boton">
+					</form>
+				</article>
+				<article>
+					<h2>Celulares</h2>
+					<form id="idFormulario2">
+						<label for="idMarcaCelularesCombo">Marca</label>
+						<select id="idMarcaCelularesCombo">
+							
+						</select> <br>
+						<label for="idModelo">Modelo</label>
+						<input type="text" id="idModelo" maxlength="25" required>
+						<br>
+						<label for="idDescripcion">Descripcion</label>
+						<input type="text" id="idDescripcion" maxlength="25">
+						<br>
+						<label for="idPrecio">Precio</label>
+						<input type="number" id="idPrecio"  required>
+						<br>
+						<label for="idPantalla">Pantalla</label>
+						<input type="number" id="idPantalla">
+						<br>
+						<label for="idMemoria">Memoria</label>
+						<input type="number" id="idMemoria">
+						<br>
+						<label for="idSist">Sist. Operativo</label>
+						<input type="text" id="idSist" maxlength="25">
+						<br>
+						<br>
+						<input type="button" id="idBotonRegistrarCelular" value="Registrar Celular" class="boton">
+					</form>
+				</article>
+			</section>
+			<section id="idSeccion2">
+				<h2>Comparacion</h2>
+				<form>
+					<label for="idModeloComparacionCombo">Modelo</label>
+					<select id="idModeloComparacionCombo"  name="comparaModelo">
+					</select>
+					<input type="button" id="botonAgregarEnTabla" value="Agregar en Tabla" class="boton">
+					<input type="button" id="botonVaciarTabla" value="Vaciar Tabla" class="boton">
+				</form>
+				<br>
+				<br>
+				<table id="idTabla">
+					
+					<tbody>
+						<tr id="trModelo">
+							<td>Modelo</td>
+							
+						</tr>
+						<tr id="trDescripcion">
+							<td>Descripcion</td>
+							
+						</tr>
+						<tr id="trMarca">
+							<td>Marca</td>
+							
+						</tr>
+						<tr id="trMemoria">
+							<td>Memoria</td>
+							
+						</tr>
+						<tr id="trPantalla">
+							<td>Pantalla</td>
+							
+						</tr>
+						<tr id="trPrecio">
+							<td>Precio</td>
+							
+						</tr>
+						<tr id="trSistOp">
+							<td>Sistema Operativo</td>
+							
+						</tr>
+					</tbody>
+					
+				</table>
+			</section>
+			<section id="idSeccion3">
+				<h2>Resumen</h2>
+				
+				<p id="celRegis">Cantidad de celulares registrados: SIN DATOS</p>
+				<p id="precioProm">Precio promedio por celular: SIN DATOS</p>
+				
+				<p>Marcas con la maxima cantidad de celulares (ordenados por marca): </p>
+				<ul id="idLista">
+				</ul>
+				<p id="celCaro">El celular mas caro es: SIN DATOS</p>
+			</section>
+		</main>
+		<aside>
+			<h2>Recomendaciones</h2>
+			<p>Para elegir un celular es recomendable considerar, ademas del precio, el sistema operativo, tamaño de pantalla y la memoria disponible</p>
+			<p>Le sugerimos visitar estos sitios para acesorarse sobre algunos celulares del mercado o utilizar el buscador</p>
+			
+			
+			<br>
+			<a href = "https://www.samsung.com/" target="_blank">Samsung</a>
+			<br>
+			
+			<br>
+			<a href = "https://www.apple.com/" target="_blank">Apple</a>
+			<br>
+			
+			<br>
+			<a href = "https://www.xiaomi.com/" target="_blank">Xiaomi</a>
+			<br>
+			<img src="img/gog.jpeg" class="imagen" alt="foto de google">
+			<br>
+			<form action="https://www.google.com/search" target="_blank">
+				<input type="text" name="q" class="buscar" >
+				<br>
+				<input type="submit" value="Goolgle Search" class="buscador">
+			</form>
+		</aside>
+		<footer id="pieDePagina">
+			<p>Pagina desarrollada por: Igal Winicki-251512 y Nicolas Starovieschik-270315</p>
+		</footer>		
+	</body>
+</html>	
+
+
+
+
+
+
+
+
+

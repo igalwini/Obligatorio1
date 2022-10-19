@@ -1,0 +1,129 @@
+/*Igal Winicki-251512 y Nicolas Starovieschik-270315*/
+body{
+	background-color:#F9E9C4;
+}
+main{
+	width:65%;
+	float:left;
+}
+header{
+	text-align:center;
+	font-family:Arial;
+	background-image:url("../img/cuadrados.jpeg");
+	color:#8b0000;
+}
+nav{
+	background-color:#F9E9C4;
+	text-align:center;
+	color:#8b0000;
+}
+nav ul li{
+	display:inline;
+	padding:7px;
+	text-decoration:underline;
+}
+table, tr, td {
+  border: 1px solid black;
+}
+#idSeccion1{
+	background-color:#DEB887;
+	padding:5%;
+	border: 1px solid black;
+	border-radius:5%;
+}
+article{
+	background-color:#F5DEB3;
+	border-radius:30px;
+	padding-left:5%;
+	padding-right: 10%;
+	margin-right:5%;
+	margin-left:1px;
+	padding-bottom:5%;
+}
+#idSeccion2{
+	background-color:#DEB887;
+	padding:5%;
+	border: 1px solid black;
+	border-radius:50px;
+}
+#idSeccion3{
+	background-color:#DEB887;
+	padding:5%;
+	border: 1px solid black;
+	border-radius:50px;
+}
+aside{
+	background-color:#F5DEB3;
+	padding-left:5%;
+	float:right;
+	border-radius:5%;
+	width:25%;
+	padding-bottom:5%;
+	padding-top:4%;
+	padding-right:2%;
+	
+}
+footer{
+	background-color:#DAA520;
+	text-align:center;
+	clear:both;
+	color:white;
+	height:30px;
+	
+}
+.imagen{
+	width:100px;
+	padding-left:25%;
+	padding-top:10%
+	
+}
+.buscar{
+	padding-right: 10%;
+	margin-left:25px;
+}
+.buscador{
+	margin-left:11%;
+	padding-left:14%;
+	padding-right:14%;
+	
+	
+}
+#idMarca{
+	margin-left:61px
+}
+#idComentarios{
+	margin-left:20px
+}
+#idMarcaCelularesCombo{
+	margin-left:60px;
+	margin-left:60px;
+	padding-right:153px;
+}
+#idModelo{
+	margin-left:51px
+}
+#idDescripcion{
+	margin-left:23px
+}
+#idPrecio{
+	margin-left:60px
+}
+#idPantalla{
+	margin-left:49px
+}
+#idMemoria{
+	margin-left:42px
+}
+#idSist{
+	margin-left:5px
+}
+.boton{
+	margin-left:10px;
+	padding-left:7%;
+	padding-right:7%;
+}
+
+#idModeloComparacionCombo{
+	padding-left:150px;
+	margin-left:px;
+}
